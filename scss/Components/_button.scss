@@ -1,0 +1,56 @@
+.button-purple {
+   @include styleBtn($color-purple-1, none, $br-2, $pd-2, $pd-1);
+   font-family: 'Montserrat', sans-serif;
+   @include styleText(1.3em, $fw-3, $color-white-1);
+   margin: 6px;
+   text-align: center;
+   align-content: flex-start;
+   align-items: center;
+   line-height: 1;
+   box-shadow: 0 0 0 3em $color-purple-1 inset;
+   transition: all 0.3s;
+   cursor: pointer;
+   &:hover {
+      @include styleHoverBtn(none, none, $color-purple-1);
+      box-shadow: 0 0 0 1px $color-purple-1 inset;
+   }
+}
+
+.button-transparent {
+   @include styleBtn(transparent, none, $br-2, $pd-2, $pd-1);
+   font-family: 'Montserrat', sans-serif;
+   @include styleText(1.3em, $fw-3, $color-purple-1);
+   margin: 6px;
+   text-align: center;
+   align-content: flex-start;
+   align-items: center;
+   line-height: 1;
+   box-shadow: 0 0 0 1px $color-purple-1 inset;
+   transition: all 0.3s;
+   cursor: pointer;
+   &:hover {
+      @include styleHoverBtn(none, none, $color-white-1);
+      box-shadow: 0 0 0 3em $color-purple-1 inset;
+   }
+}
+
+.button-white {
+   @include styleBtn($color-white-1, none, $br-2, $pd-2, $pd-1 + 0.3);
+   font-family: 'Montserrat', sans-serif;
+   @include styleText(0.9em, $fw-3, $color-black-1);
+   margin: 6px;
+   margin-top: 10%;
+   text-align: center;
+   align-content: flex-start;
+   align-items: center;
+   line-height: 1;
+   box-shadow: 0 0 0 3em $color-white-1 inset;
+   transition: all 0.3s;
+   cursor: pointer;
+   &:hover {
+      @include styleHoverBtn(none, none, $color-white-1);
+      box-shadow: 0 0 0 1px $color-white-1 inset;
+      text-decoration: none;
+      // @include styleText(0.9em, $fw-3, $color-white-1);
+   }
+}

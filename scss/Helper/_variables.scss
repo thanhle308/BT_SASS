@@ -1,0 +1,47 @@
+//font-size
+$fs-1: 0.8em;
+$fs-2: 1em;
+$fs-3: 13px;
+$fs-4: 57px;
+$fs-5: 1.8em;
+
+//color
+$color-white-1: #f1f1f1;
+$color-orange-1: #ee5b54;
+$color-blue-1: #21759b;
+$color-black-1: #181818;
+$color-yellow-1: #ffde39;
+$color-purple-1: #b61984;
+$color-purple-2: #aa017e;
+$color-pink-1: #dcd1f3;
+$color-grey-1: #efefef;
+//border-radius
+
+$br-1: 10px;
+$br-2: 50px;
+$br-3: 50%;
+
+//font-weight
+
+$fw-1: 400;
+$fw-2: 600;
+$fw-3: 500;
+$fw-4: 700;
+
+//padding
+$pd-1: 1.1em;
+$pd-2: 1.5em;
+$pd-3: 30px;
+//margin
+$mg-1: 6px;
+
+// font family
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+//break points
+$breakpoints: (
+   'extra-large': 1200px,
+   'large': 992px,
+   'medium': 768px,
+   'small': 576px,
+);

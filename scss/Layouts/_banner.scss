@@ -1,0 +1,66 @@
+.banner {
+   padding: 0;
+   position: relative;
+   .banner-img {
+      right: 0;
+      left: 0;
+      top: 0;
+      position: absolute;
+      z-index: -1;
+      img {
+         max-width: 100%;
+         width: 100%;
+         height: auto;
+         display: block;
+      }
+   }
+
+   .banner-left-content {
+      display: flex;
+      justify-content: center;
+      flex-flow: column nowrap;
+      padding: 50% 0;
+      height: auto;
+      l .sub-title {
+         color: red;
+      }
+      div {
+         height: auto;
+         margin-top: 2.2em;
+         a {
+            padding: 1.3em 2.6em;
+            text-decoration: none;
+            font-size: 0.94em;
+            align-items: center;
+            &:hover {
+               span {
+                  color: $color-purple-1;
+               }
+            }
+            span {
+               line-height: 1.1;
+               letter-spacing: 0.5px;
+               text-transform: uppercase;
+               @include styleText(inherit, $fw-2, $color-white-1);
+            }
+         }
+      }
+   }
+}
+
+.banner {
+   .container-fluid {
+      padding: 0;
+   }
+   .banner-img-footer {
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+      z-index: -2;
+      img {
+         width: 100%;
+      }
+   }
+}

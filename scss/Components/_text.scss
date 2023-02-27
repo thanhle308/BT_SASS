@@ -1,0 +1,19 @@
+.sub-title {
+   @include styleText(1.2rem, $fw-2, $color-purple-1);
+   margin-bottom: 0.3rem;
+   font-family: $montserrat;
+   text-transform: uppercase;
+}
+
+.title {
+   @include styleText(3.8rem, $fw-4, $color-black-1);
+   font-family: $montserrat;
+   line-height: 1.2;
+}
+
+.paragraph {
+   @include styleText($fs-3 + 2, $fw-1, $color-black-1);
+   font-family: $roboto;
+   line-height: 1.8em;
+   margin: 0 0 1em;
+}
